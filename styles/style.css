@@ -219,7 +219,6 @@ nav {
 /* about */
 #about {
     padding-top: 50px;
-    height: 300px;
     width: 100vw;
 
     display: flex;
@@ -229,7 +228,6 @@ nav {
 }
 
 #introCard {
-    height: 200px;
     width: 500px;
     text-align: justify;
     border-radius: 40px;
@@ -466,4 +464,44 @@ p {
     justify-content: flex-start;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+}
+
+@media (max-width: 1140px) {
+    .project {
+        overflow: hidden;
+        
+        margin-top: 50px;
+        height: auto;
+        width: 95vw;
+        display: flex;
+        flex-direction: row;
+        border-radius: 30px;
+    }
+    .showcase {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 50vw;
+    }
+    
+    .outline {
+        background-color: rgba(255, 255, 255, 0.60);
+        padding: 20px;
+        width: 40vw;
+        height: auto;
+    }
+
+    .projectName {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        font-weight: bold;
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .projectDescription {
+        text-align: justify;
+        font-size: 22px;
+        line-height: 23px;
+        width: 40vw;
+    }
 }
