@@ -1,4 +1,4 @@
-A personal portfolio website. Showcases multiple personal projects, an about section, and a contact section.
+My personal portfolio website :D
 
-View live: https://xandergardner.github.io/PersonalSite/
+https://xandergardner.github.io/xanfolio/
 
