@@ -1,6 +1,4 @@
-My personal portfolio website :D
-
-https://xandergardner.github.io/xanfolio/
+Hi, I'm Xander, and this is my personal portfolio website
 
 ```
                                           000000000000000000000000000                                                                                                                                   
