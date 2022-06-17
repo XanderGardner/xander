@@ -1,217 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="styles/cssreset.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="styles/style.css" rel="stylesheet" type="text/css" media="all"/>
-        <link rel="shortcut icon" type="image/ico" href="assets/images/faviconInitials.ico"/>
-        <title>Xander Gardner</title>
-    </head>
-    <body>
-        <h1 id="xander" href="#top">Xander Gardner</h1>
-        <div id="top">
-            <div id="top1">  
-            </div>
-        </div>
-        <nav>
-            <div id="xanLogo">
-                Xander Gardner
-                <div id="xanLogoTop">
-                    Xander Gardner
-                </div>
-            </div>
-            <a id="navAbout" class="navButton" href="#about">About</a>
-            <a id="navProjects" class="navButton" href="#projects">Projects</a>
-            <a id="navContact" class="navButton" href="#contact">Contact</a>
-        </nav>
-        <div id="about">
-            <div id="introCard">
-                <h2>
-                    About
-                </h2>
-                <hr>
-                <p>
-                    Hi! My name is Xander, and I'm from Sarasota, Florida. 
-                    I enjoy learning new things, weilding the power of computation, and folding origami. 
-                    I am a a competitive swimmer and Operations Research and Financial Engineering student at Princeton.
-                </p>
-            </div>
-            <div id="resumeCard">
-                <h2 id="resume">
-                    R&eacute;sum&eacute;
-                </h2>
-                <button id="viewResume" class="resumeBtn" type="submit" onclick="window.open('assets/files/Online_Resume.pdf')">View</button>
-                <a id="downloadResume" href='assets/files/Online_Resume.pdf' download>Download</a>
-            </div>
-        </div>
-        <div id="projects">
-            <h2 class="prjHd">
-                Projects
-            </h2>
-            <div class="project">
-                <video src="assets/videos/block-pursuit.mp4" loop id="showcase" class="showcase"></video>
-                <div class="outline">
-                        <h3 style="font-family: monospace;" class="projectName">Block-Pursuit</h3>
-                    <ul class="languages">
-                        <li class="language java">Java</li>
-                                    <li class="language javafx">JavaFX</li>	
-                            </ul>
-                    <p class="projectDescription">
-                        Block-Pursuit is 2d survival game.
-                                    How long will you be able to avoid the AI as both your speeds increase? 
-                                    Includes multiple modes and maps and a file system for tracking high scores.
-                                    AI uses an unique/original path finding algorithm, which I call the lillypad method.
-                                    You can toggle visuals for the lillypad method.
-                    </p>
-                    <div class="checkout">
-                        <!--<a target="_blank" href="~~~~LIVE_VIEW_LINK~~~" class="viewProject">Live View</a>-->
-                                    <a target="_blank" href="https://github.com/XanderGardner/Block-Pursuit" class="viewProject">Get Code</a>
-                            </div>
-                </div>
-            </div>
-            <div class="project">
-                <video src="assets/videos/etch-a-sketch.mov" loop id="showcase" class="showcase"></video>
-                <div class="outline">
-                        <h3 class="projectName">Etch-A-Sketch</h3>
-                    <ul class="languages">
-                        <li class="language javascript">Javascript</li>
-                                    <li class="language css">CSS</li>
-                                    <li class="language html">HTML</li>
-                            </ul>
-                    <p class="projectDescription">
-                        Etch-A-Stech has a drawing area which draws when the mouse is over it. 
-            Each time the mouse goes over it, the block becomes a little darker. 
-            The shake button allows the drawing area to be reset and the number of rows/columns of blocks to be set.
-                    </p>
-                    <div class="checkout">
-                        <a target="_blank" href="https://xandergardner.github.io/Etch-A-Sketch/" class="viewProject">Live View</a>
-                                    <a target="_blank" href="https://github.com/XanderGardner/Etch-A-Sketch" class="viewProject">Get Code</a>
-                            </div>
-                </div>
-            </div>
-            <div class="project">
-                <video src="assets/videos/lifttracker.mp4" loop id="showcase" class="showcase"></video>
-                <div class="outline">
-                        <h3 class="projectName">LiftTracker</h3>
-                    <ul class="languages">
-                        <li class="language java">Java</li>
-                                    <li class="language javafx">JavaFX</li>	
-                            </ul>
-                    <p class="projectDescription">
-                        Java GUI desktop application used to track gym workouts. 
-            Information is stored (using a custom file system and sorting/searching) and can be graphed in different ways. 
-            Routines can be created for easy entries.
-            Past entries can be deleted and edited.
-                    </p>
-                    <div class="checkout">
-                        <!--<a target="_blank" href="~~~~LIVE_VIEW_LINK~~~" class="viewProject">Live View</a>-->
-                                    <a target="_blank" href="https://github.com/XanderGardner/LiftTracker" class="viewProject">Get Code</a>
-                            </div>
-                </div>
-            </div>
-            <div class="project">
-                <video src="assets/videos/math-explorer.mp4" loop id="showcase" class="showcase"></video>
-                <div class="outline">
-                        <h3 class="projectName">Math-Explorer</h3>
-                    <ul class="languages">
-                        <li class="language javascript">Javascript</li>
-                                    <li class="language css">CSS</li>
-                                    <li class="language html">HTML</li>
-                            </ul>
-                    <p class="projectDescription">
-                        Explores various mathematical concepts through interactive and animated explanations. 
-            Concepts included estimating PI, finding and testing prime numbers, and the collatz conjecture.
-            Significant code in Javascript with added HTML/CSS from code.org.
-                    </p>
-                    <div class="checkout">
-                        <!--<a target="_blank" href="~~~~LIVE_VIEW_LINK~~~" class="viewProject">Live View</a>-->
-                                    <a target="_blank" href="https://github.com/XanderGardner/Math-Explorer" class="viewProject">Get Code</a>
-                            </div>
-                </div>
-            </div>
-            <div class="project">
-                <video src="assets/videos/gravland.mp4" loop id="showcase" class="showcase"></video>
-                <div class="outline">
-                        <h3 class="projectName">GravLand</h3>
-                    <ul class="languages">
-                        <li class="language java">Java</li>
-                                    <li class="language javafx">JavaFX</li>
-                            </ul>
-                    <p class="projectDescription">
-                        A 2D interactive N-body simulation.
-            (Simulation/animation of gravitational bodies)
-                    </p>
-                    <div class="checkout">
-                        <!--<a target="_blank" href="~~~~LIVE_VIEW_LINK~~~" class="viewProject">Live View</a>-->
-                                    <a target="_blank" href="https://github.com/XanderGardner/GravLand" class="viewProject">Get Code</a>
-                            </div>
-                </div>
-            </div>
-            <div class="project">
-                <video src="assets/videos/picturetyper.mp4" loop id="showcase" class="showcase"></video>
-                <div class="outline">
-                        <h3 class="projectName">PictureTyper</h3>
-                    <ul class="languages">
-                        <li class="language java">Java</li>
-                            </ul>
-                    <p class="projectDescription">
-                        Concerts any image into ASCII Art fit for a word document.
-            Original image classes by Barb Ericson
-            Created using Barb Ericson's java library for editing images.
-                    </p>
-                    <div class="checkout">
-                        <!--<a target="_blank" href="~~~~LIVE_VIEW_LINK~~~" class="viewProject">Live View</a>-->
-                                    <a target="_blank" href="https://github.com/XanderGardner/Picture-Typer" class="viewProject">Get Code</a>
-                            </div>
-                </div>
-            </div>
-            <div class="project">
-                <video src="assets/videos/rockpaperscissors.mov" loop id="showcase" class="showcase"></video>
-                <div class="outline">
-                        <h3 class="projectName">RockPaperScissors</h3>
-                    <ul class="languages">
-                        <li class="language javascript">Javascript</li>
-                                    <li class="language css">CSS</li>
-                                    <li class="language html">HTML</li>
-                            </ul>
-                    <p class="projectDescription">
-                        Web page where you can play "rock paper scissors" best to 5 against the computer.
-                    </p>
-                    <div class="checkout">
-                        <a target="_blank" href="https://xandergardner.github.io/rockPaperScissors/" class="viewProject">Live View</a>
-                                    <a target="_blank" href="https://github.com/XanderGardner/rockPaperScissors" class="viewProject">Get Code</a>
-                            </div>
-                </div>
-            </div>
-        </div>
-        <div id="contact">
-            <div class="contactCard">
-                <h2 class=cntHd>Contact</h2>
-                <div class=cntMethod>
-                    <a href="mailto: xandergardner7@gmail.com"><img src="assets/images/gmail.svg" class="svgLogo"></a>
-                    <a href="mailto: xandergardner7@gmail.com" class="profileLink">xandergardner7@gmail.com</a>
-                </div>
-                <div class=cntMethod>
-                    <a target="_blank" href="https://github.com/xandergardner"><img src="assets/images/github.svg" class="svgLogo"></a>
-                    <a target="_blank" href="https://github.com/xandergardner" class="profileLink">XanderGardner</a>
-               </div>
-                <div class=cntMethod>
-                    <a target="_blank" href="https://www.linkedin.com/in/xander-gardner-75588b1b4/"><img src="assets/images/linkedin.svg" class="svgLogo"></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/xander-gardner-75588b1b4/" class="profileLink">Xander Gardner</a>
-              </div>
-                <div class=cntMethod>
-                    <a target="_blank" href="https://www.instagram.com/xander.gardner/"><img src="assets/images/instagram.svg" class="svgLogo"></a>
-                    <a target="_blank" href="https://www.instagram.com/xander.gardner/" class="profileLink">xander.gardner</a>
-               </div>
-            </div>
-        </div>
-        <footer>
+  <head>
+    <link href="styles/cssreset.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="shortcut icon" type="image/ico" href="assets/images/initials-logo.ico"/>
+    <title>Xander Gardner</title>
+  </head>
+  <body>
 
-        </footer>
-        <script type="text/javascript" src="scripts/script.js"></script>
-    </body>
+    <!-- intro section -->
+    <div class="container">
+      <img src="assets/images/personal_presentation.png" class="presentation-img-card">
+    </div>
+    
+    <!-- about section -->
+    <div class="container">
+        <div class="card">
+          <p class="about-p">A 2024 Princeton <a class="link" target="_blank" href="https://orfe.princeton.edu/">Financial Engineering</a> Student, Experienced Software Developer, and Finance Enthusiast</p>
+        </div>
+    </div>
+
+    <!-- connect section -->
+    <div class="container">
+      <div class="card border-card">
+        <h2>Connect</h2>
+        <a class=cntMethod target="_blank" href="mailto: xandergardner7@gmail.com" class="profileLink">
+          <img src="assets/images/gmail.svg" class="svgLogo">
+          <p class="profileLink">Email: xandergardner7@gmail.com</p>
+          <img src="assets/images/new-tab.svg" class="svgNewTab">
+        </a>
+        <a class=cntMethod target="_blank" href="https://www.linkedin.com/in/xandergardner/" class="profileLink">
+          <img src="assets/images/linkedin.svg" class="svgLogo">
+          <p class="profileLink">LinkedIn: Xander Gardner</p>
+          <img src="assets/images/new-tab.svg" class="svgNewTab">
+        </a>
+        <a class=cntMethod target="_blank" href="https://github.com/xandergardner" class="profileLink">
+          <img src="assets/images/github.svg" class="svgLogo">
+          <p class="profileLink">GitHub: XanderGardner</p>
+          <img src="assets/images/new-tab.svg" class="svgNewTab">
+        </a>
+        <a class=cntMethod target="_blank" href="https://www.instagram.com/xander.gardner/" class="profileLink">
+          <img src="assets/images/instagram.svg" class="svgLogo">
+          <p class="profileLink">Instagram: xander.gardner</p>
+          <img src="assets/images/new-tab.svg" class="svgNewTab">
+        </a>
+      </div>
+      </div>
+    </div>
+
+    <!-- projects section -->
+    <div class="container">
+      <div class="card border-card">
+        <h2>Projects</h2>
+        <div class="projects">
+          <a class="project" target="_blank" href="mailto: xandergardner7@gmail.com">
+            <video src="assets/videos/block-pursuit.mp4" loop class="showcase"></video>
+            <h3 class="project-title">Block-Pursuit</h3>
+            <p><b>Java & JavaFX</b> - Survive as long as possible as a pathfinding AI hunts you down. 
+            Multiple modes and maps and a file system for tracking high scores.</p>
+          </a>
+          <a class="project" target="_blank" href="https://github.com/XanderGardner/LiftTracker">
+            <video src="assets/videos/lifttracker.mp4" loop class="showcase"></video>
+            <h3 class="project-title">LiftTracker</h3>
+            <p><b>Java & JavaFX</b> - Track and visualize gym workouts and create routines for easy entry. 
+              Full CRUD operations implemented through custom file system.</p>
+          </a>
+          <a class="project" target="_blank" href="https://github.com/XanderGardner/Math-Explorer">
+            <video src="assets/videos/math-explorer.mp4" loop class="showcase"></video>
+            <h3 class="project-title">Math-Explorer</h3>
+            <p><b>Javascript, HTML & CSS</b> - Explores various mathematical concepts through interactive and animated explanations. 
+              Estimating PI, prime numbers, the collatz conjecture & more</p>
+          </a>
+          <a class="project" target="_blank" href="https://github.com/XanderGardner/GravLand">
+            <video src="assets/videos/gravland.mp4" loop class="showcase"></video>
+            <h3 class="project-title">GravLand</h3>
+            <p><b>Java & JavaFX</b> - A 2D interactive N-body simulation.
+              (Simulation & animation of gravitational bodies)</p>
+          </a>
+          <a class="project" target="_blank" href="https://github.com/XanderGardner/pictext">
+            <video src="assets/videos/picturetyper.mp4" loop class="showcase"></video>
+            <h3 class="project-title">pictext</h3>
+            <p><b>Java -> Javscript, HTML & CSS</b> - Concerts any image into ASCII Art fit for a word document.</p>
+          </a>
+          <a class="project" target="_blank" href="https://xandergardner.github.io/Etch-A-Sketch/">
+            <video src="assets/videos/etch-a-sketch.mov" loop class="showcase"></video>
+            <h3 class="project-title">Etch-A-Sketch</h3>
+            <p><b>Javascript, HTML & CSS</b> - Draw sketches and restart with the shake button just like an Etch-A-Sketch
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </body>
 </html>
 
-<!--
-    ~~~Project Addition: 
-    See file "SITE PROJECT ADDITION.txt"
--->
+<!-- Project addition:
+
+<a class="project" target="_blank" href="___">
+  <video src="____" loop class="showcase"></video>
+  <h3 class="project-title">___</h3>
+  <p><b>___</b> - ___</p>
+</a> -->
