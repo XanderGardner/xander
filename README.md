@@ -1,4 +1,4 @@
-This is my personal portfolio website. You have view it here: https://xandergardner.github.io/xander/
+This is my personal portfolio website. You can view it here: https://xandergardner.github.io/xander/
 
 ```
                                           000000000000000000000000000                                                                                                                                   
